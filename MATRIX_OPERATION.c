@@ -27,7 +27,7 @@ int main(){
     for(i=0;i<n;i++){
         for(j=0;j<n;j++){
             for(k=0;k<n;k++){
-                mul[i][j] += m1[j][k]*m2[k][k];
+                mul[i][j] += m1[j][k]*m2[i][k];
             }
          }
     }
